@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    
+        <menuitem id="menu_receptions"
+            parent="stock.menu_stock_root"
+            name="Receptions"
+            sequence="2"/>
+    
+</odoo>
