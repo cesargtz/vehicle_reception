@@ -26,7 +26,7 @@ class VehicleReception(models.AbstractModel):
     owner_id = fields.Many2one('res.partner', 'Propietario',  help="Propietario", readonly=True, states={'analysis': [('readonly', False)]})
 
     contract_type = fields.Selection([
-        ('axc', 'AxC'),
+        ('axc', 'Spot'),
         ('pf', 'Precio Fijo'),
         ('pm', 'Precio Minimo'),
         ('pd', 'Precio Despues'),
